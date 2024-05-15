@@ -1,0 +1,8 @@
+OPENMP Se clasifica como MIMD o Múltiples Instrucciones, Múltiples datos, ya que OPENMP permite el paralelismo a nivel de multi-hilos, 
+donde los distintos hilos pueden ejecutar diferentes operaciones con distintos conjuntos de datos.
+
+MPI Se clasifica como MIMD, ya que define la sintaxis y la semántica de las funciones en la biblioteca de un modelo de programación de
+paso de mensajes, donde cada proceso tiene su espacio de memoria local.
+
+Multiprocessing Debido a que se refiere a sistemas con más de un procesador, puede ser SIMD, ya que se puede ordenar a los procesadores
+ejecutar la misma instrucción en distintos datos, o en caso de que cada procesador ejecute una instrucción distinta, puede ser MIMD.
